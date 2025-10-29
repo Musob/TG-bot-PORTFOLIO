@@ -8,12 +8,12 @@ from aiogram.enums import ContentType
 import aiomysql
 
 # --- Sozlamalar --- #
-BOT_TOKEN = "8426552781:AAEwp8xSxxaDJ0iXB0_aIKH0bvtVv6z7_-U"
+BOT_TOKEN = "BOT TOKEN"
 DB_HOST = "127.0.0.1"
 DB_PORT = 3306
 DB_USER = "root"
-DB_PASS = "$Musobek04"
-DB_NAME = "test_db"
+DB_PASS = "PASSWORD"
+DB_NAME = "MYSQL DB NAME"
 
 FILES_DIR = "files"
 os.makedirs(FILES_DIR, exist_ok=True)
@@ -509,4 +509,5 @@ async def start_bot():
 if __name__ == "__main__":
     print("🚀 Botni ishga tushirish...")
     asyncio.run(start_bot())
+
 
